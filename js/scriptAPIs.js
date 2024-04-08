@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
           ContenedorArticulo.classList.add("card");
           ContenedorArticulo.innerHTML = `
             <div class="ContenedorArticulo-body">
-              <h5 class="ContenedorArticulo-title">${data.title}</h5>
-              <h5 class="ContenedorArticulo-title">userId: ${data.userId}</h5>
-              <p class="ContenedorArticulo-text">id: ${data.id}</p>
-              <p class="ContenedorArticulo-text">title: ${data.title}</p>
-              <p class="ContenedorArticulo-text">Completado: ${data.completed}</p>
+              <h5 class="ContenedorArticulo-title">${article.title}</h5>
+              <h5 class="ContenedorArticulo-title">userId: ${article.userId}</h5>
+              <p class="ContenedorArticulo-text">id: ${article.id}</p>
+              <p class="ContenedorArticulo-text">title: ${article.title}</p>
+              <p class="ContenedorArticulo-text">Completado: ${article.completed}</p>
             </div>
           `;
           articlesList.appendChild(ContenedorArticulo);
